@@ -1,0 +1,422 @@
+/* styles.css */
+
+/* General styles */
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 56px; /* Adjust to navbar height */
+    
+  }
+  
+  .navbar {
+    background-color: #4CAF50 !important;
+    
+}
+
+.navbar{
+
+    padding: 1% 1%;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    }
+    .navbar-icon{
+     color: black;
+    
+    }
+.navbar-brand img{
+
+    width: 155px;
+     height: 60px;
+
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.nav-link{
+    text-size: 50px;
+    color: #fdf9f9;
+    
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+
+
+}
+
+.navbar .dropdown-menu {
+  background-color: #4CAF50;
+  
+}
+.navbar .dropdown-item {
+  color: #fff !important;
+  padding:4% 4%;
+  
+  
+}
+
+.nav-link:hover{
+    background: rgb(113, 113, 212);
+    color: black;
+    transform: scale(1.2);
+    
+
+}
+ 
+  
+  /* Jumbotron */
+ 
+  /* Jumbotron */
+
+  .jumbotron {
+    padding: 150px 0;
+    color: white;
+    position: relative;
+    background: none;
+    font-weight: bold;
+    color: #232222;
+    margin-top: 40px; /* Add this line for spacing */
+    
+  }
+
+.jumbotron {
+  padding: 150px 0;
+  color: white;
+  position: relative;
+  background: none;
+  font-weight: bold;
+  color: #232222;
+  padding-top: 50px; /* Adjust as needed */
+  margin-bottom: 20px; /* Additional space at the bottom if needed */
+  margin-top: 50px !important;
+}
+
+.jumbotron .btn-primary {
+  background-color: #4CAF50;
+  border: none;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #08780b;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+.jumbotron-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 0.7;
+  background-image: url('image/hero.jpg'); /* Add your background image URL here */
+}
+
+/* Additional CSS for other sections */
+/* ... your existing CSS for other sections ... */
+
+  
+  /* Section Titles */
+  h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  /* Services Icons */
+  .fa-3x {
+    margin-bottom: 15px;
+    color: #007bff;
+  }
+  
+  /* Section Padding */
+  section {
+    padding: 60px 0;
+  }
+/*doctor profile */
+
+
+
+  /* Services Section */
+#services {
+  background: linear-gradient(135deg, #f1f3f1 0%, #e6ece7 100%);
+    
+    padding: 60px 0;
+  }
+  
+  #services .service-item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+    
+    
+    
+    
+
+  }
+  #border{
+
+    border-left: 2px solid #141313;
+
+  }
+  
+  #services .service-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  #services .service-icon {
+    margin-bottom: 20px;
+    color: #358fee;
+  }
+  
+  #services .service-icon i {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #services h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  #services .section-description {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin-bottom: 40px;
+  }
+  
+  #services h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #services p {
+    color: #6c757d;
+  }
+
+ #doctor{
+ background: linear-gradient(135deg, #f1f3f1 0%, #e6ece7 100%);
+ padding: 60px 15px;
+  
+  
+ 
+ }
+  .doctor-profile {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 17px;
+    margin-bottom: 30px;
+}
+
+.doctor-profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.doctor-profile h3 {
+    margin-bottom: 10px;
+}
+
+.doctor-profile p {
+    font-size: 1.1rem;
+}
+
+.doctor-profile:hover {
+transform: translateY(-5px);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/*profile*/
+body {
+    background-color: #f8f9fa;
+  }
+  .profile-card {
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  .profile-card .card-header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .profile-card .card-body {
+    background-color: #f8f9fa;
+  }
+  .profile-card .card-body h5 {
+    color: #007bff;
+  }
+  .profile-card .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 100%;
+  }
+  .profile-card .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  .profile-card .logout-btn {
+    margin-top: 10px;
+  }
+
+
+  footer {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 30px 0;
+}
+
+/* contact*/
+#contact {
+  background: linear-gradient(135deg, #f1f3f1 0%, #e6ece7 100%);
+  padding: 60px 0;
+  color: #fff;
+  position: relative;
+}
+
+#contact .container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+#contact p {
+  font-size: 1.1em;
+  color: #202120;
+  margin-bottom: 40px;
+}
+
+#contact .form-control {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  color: #1d1e1d;
+  margin-bottom: 20px;
+  
+}
+
+#contact .form-control:focus {
+  background-color: #f8f8f8;
+  color: #141514;
+  border-color: #4CAF50;
+  box-shadow: none;
+}
+
+#contact .btn-primary {
+  background-color: #4CAF50;
+  border: 1px solid #ddd;
+  border-color: rgb(60, 57, 57);
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-size: 1rem;
+  color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#contact .btn-primary:hover {
+  background-color: #4CAF50;
+  transform: scale(1.05);
+}
+
+#contact .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#contact .form-group label {
+  color: #4CAF50;
+  font-size: 1.3rem;
+
+}
+
+#contact .form-group {
+  margin-bottom: 15px;
+}
+
+#contact .form-control::placeholder {
+  color: #bbb;
+}
+
+#contact .form-control:focus::placeholder {
+  color: #999;
+}
+
+
+.or-section p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.contact-details {
+  background-color: white;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-details p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-details p strong {
+  color: #4CAF50;
+}
+    </style>
+   
+
+/*about*/
+#about {
+  background: linear-gradient(135deg, #f1f3f1 0%, #e6ece7 100%);
+  margin-top: 10px;
+  padding: 60px 0;
+  color: #fff;
+  position: relative;
+}
+#about p {
+  font-size: 1.1em;
+  color: #282626;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+#about h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1c1c1c;
+  padding: 10px;
+}
+
+
+
+    
